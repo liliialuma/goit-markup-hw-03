@@ -1,0 +1,232 @@
+:root {
+	--iris: #4d5ae5;
+	--ocean: #404bbf;
+	--navy-blue: #2e2f42;
+	--green: #31d0aa;
+	--slate: #434455;
+	--light-slate: #8e8f99;
+	--cornflower: #e7e9fc;
+	--cloud: #f4f4fd;
+	--navy-blue-modal: rgba(46, 47, 66, 0.4);
+	--grey: rgba(46, 47, 66, 0.7);
+	--white: #fff;
+	--dairy: #fcfcfc;
+}
+
+
+body{
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #fff;
+}
+ul, ol{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.header{
+  background: var(--white);
+}
+.logo-header{
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+
+.studio-header{
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--navy-blue)
+}
+
+.link-nav-menu{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+  cursor: pointer;
+}
+
+
+
+
+.address{
+  font-style: normal;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+
+
+.nav-email{
+ font-size: 16px;
+ /* line-height: 24px; */ 
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+ color: #434455;
+ cursor: pointer;
+}
+
+.link-nav-menu:hover,
+.link-nav-menu:focus,
+.nav-email:hover,
+.nav-email:focus {
+  color: #404bbf;
+}
+
+.first-part{
+  background: var(--navy-blue);
+}
+
+.first-h{
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white);
+  background: var(--navy-blue);
+  }
+
+.button-order-service{
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  background-color: var(--iris);
+  cursor: pointer;
+  }
+
+.button-order-service:hover,
+.button-order-service:focus{
+  background-color: var(--ocean);
+  }
+
+.stong-points{
+  background: var(--white);
+}
+.our-strong-points-header{
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+}
+
+.our-strong-points-descr{
+  font-family: var(--font-family);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+  background-color: var(--white);
+  }
+.section-over-team{
+  background: var(--cloud);
+}
+.our-team{
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+}
+
+.member{
+  background-color: var(--white);
+}
+.member-name{
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.member-position{
+  font-family: var(--font-family);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.our-profilo{
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+}
+
+.profilo{
+ background: var(--white);
+}
+
+.our-profilo-h{
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+  }
+
+.our-profilo-desc{
+  font-family: var(--font-family);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+  }
+
+.footer{
+  font-family: "Raleway", sans-serif;
+  background-color: #2e2f42;
+}
+
+.logo-footer{
+  font-family: var(--second-family);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--iris);
+  }
+
+.studio{
+  color: var(--cloud);
+}
+.footer-text{
+  font-family: var(--font-family);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--cloud);
+  letter-spacing: 0.02em;
+}
