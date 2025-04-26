@@ -180,7 +180,24 @@ a{
 .stong-points{
   background: var(--white);
 }
+
+.strong-points-container{
+  display: flex;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.ul-strong-points{
+  display: flex;
+  gap: 24px;
+}
+
+.li-strong-points{
+  width: calc((100% - 72px) / 4);
+}
 .our-strong-points-header{
+  margin-bottom: 8px;
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 20px;
