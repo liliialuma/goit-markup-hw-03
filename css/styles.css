@@ -57,7 +57,7 @@ a{
 
 .logo-header{
   padding: 24px 0;
-  margin-right: 76px;
+  margin-right: 76px; 
 }
 
 .logo-header{
@@ -141,13 +141,12 @@ a{
   align-items: centre; 
   gap: 48px;
   padding-top: 188px;
-  padding-bottom: 282px;
+  padding-bottom: 188px;
   
 }
 .first-h{
   display: block;
-  width: 496px;
-  height: 120px;
+  max-width: 496px;
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 56px;
@@ -164,6 +163,10 @@ a{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
   color: var(--white);
   background-color: var(--iris);
   cursor: pointer;
