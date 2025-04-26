@@ -134,30 +134,31 @@ a{
 
 .first-part{
   background: var(--navy-blue);
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .h-container{
   display: block;
-  align-items: centre; 
-  gap: 48px;
-  padding-top: 188px;
-  padding-bottom: 188px;
-  
+  text-align: center; 
+  gap: 48px;  
 }
+
 .first-h{
-  display: flex;
+  display: block;
   max-width: 496px;
+  text-align: center;
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
   color: var(--white);
   background: var(--navy-blue);
   }
 
 .button-order-service{
+  display: block;
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
@@ -179,13 +180,14 @@ a{
 
 .stong-points{
   background: var(--white);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
+
 
 .strong-points-container{
   display: flex;
   align-items: center;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .ul-strong-points{
@@ -194,7 +196,7 @@ a{
 }
 
 .li-strong-points{
-  width: calc((100% - 72px) / 4);
+  width: calc((100%-72px)/4);
 }
 .our-strong-points-header{
   margin-bottom: 8px;
@@ -219,13 +221,14 @@ a{
   }
 .section-over-team{
   background: var(--cloud);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .over-team-container{
   display: block;
   align-items: center;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  
 }
 
 .our-team{
@@ -277,11 +280,16 @@ a{
   color: var(--slate);
 }
 
+.profilo{
+  background: var(--white);
+  padding-top: 120px;
+  padding-bottom: 120px;
+ }
+
 .our-profilo-container{
   display: block;
   align-items: center;
-  padding-top: 120px;
-  padding-bottom: 120px;
+
 }
 
 .ul-our-profilo{
@@ -313,9 +321,7 @@ a{
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-.profilo{
- background: var(--white);
-}
+
 
 .our-profilo-h{
   margin-bottom: 8px;
@@ -338,13 +344,14 @@ a{
 .footer{
   font-family: "Raleway", sans-serif;
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-container{
   display: block;
   align-items: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
+ 
 
 }
 .logo-footer{
