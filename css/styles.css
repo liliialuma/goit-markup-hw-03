@@ -137,7 +137,7 @@ a{
 }
 
 .h-container{
-  display: flex;
+  display: block;
   align-items: centre; 
   gap: 48px;
   padding-top: 188px;
@@ -145,7 +145,7 @@ a{
   
 }
 .first-h{
-  display: block;
+  display: flex;
   max-width: 496px;
   font-family: var(--font-family);
   font-weight: 700;
@@ -220,7 +220,16 @@ a{
 .section-over-team{
   background: var(--cloud);
 }
+
+.over-team-container{
+  display: block;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .our-team{
+  margin-bottom: 72px;
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 36px;
@@ -231,10 +240,26 @@ a{
   color: var(--navy-blue);
 }
 
+.ul-our-team{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
 .member{
+  width: calc((100%-72px)/4);
+  border-radius: 0px 0px 4px 4px;
   background-color: var(--white);
 }
+
+.div-name-position{
+  display: block;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .member-name{
+  text-align: center;
+  margin-bottom: 8px;
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 20px;
@@ -243,6 +268,8 @@ a{
   color: var(--navy-blue);
 }
 .member-position{
+  text-align: center;
+  margin-bottom: 8px;
   font-family: var(--font-family);
   font-size: 16px;
   line-height: 1.5;
