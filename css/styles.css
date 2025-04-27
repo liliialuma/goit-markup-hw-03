@@ -68,7 +68,6 @@ a{
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
-  display: block;
 }
 
 .studio-header{
@@ -243,6 +242,10 @@ a{
   display: block;
   align-items: center;
   
+}
+
+.image{
+  display: block;
 }
 
 .our-team{
