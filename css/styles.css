@@ -160,10 +160,12 @@ img{
   letter-spacing: 0.02em;
   color: var(--white);
   background: var(--navy-blue);
+  margin: 0 auto 48px auto;
   }
 
 .button-order-service{
   display: block;
+  margin: 0 auto;
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
@@ -224,7 +226,6 @@ img{
   line-height: 1.2;
   letter-spacing: 0.02em;
   line-height: 1.2;
-  text-align: center;
   text-transform: capitalize;
   color: var(--navy-blue);
 }
@@ -359,7 +360,6 @@ img{
   }
 
 .footer{
-  font-family: "Raleway", sans-serif;
   background-color: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
